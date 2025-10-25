@@ -93,12 +93,17 @@ pytest -q
 ## Project Structure
 
 ```
-perceptronML/
+perceptron-from-scratch/
+├── .github/
+│   └── workflows/
+│       └── tests.yml
 ├── data/
 │   ├── iris_binary.csv              # Synthetic training data
 │   ├── wdbc.data                    # Raw breast cancer data
 │   ├── breast_cancer_clean.csv      # Processed breast cancer data
 │   └── convert_breast_cancer.py     # Data preprocessing script
+├── examples/
+│   └── basic_usage.py
 ├── src/
 │   ├── perceptron.py                # Core perceptron implementation
 │   ├── utils.py                     # Utility functions
@@ -106,9 +111,16 @@ perceptronML/
 │   └── visualize.py                 # Visualization script
 ├── tests/
 │   └── test_perceptron.py           # Unit tests
-├── requirements.txt                  # Python dependencies
-├── README.md                         # Project documentation
-└── LICENSE                          # MIT License
+├── .gitignore
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── Dockerfile
+├── docker-compose.yml
+├── LICENSE
+├── README.md
+├── requirements.txt
+└── setup.py
 ```
 
 ## Technical Details
@@ -158,8 +170,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-**Guru R**  
-Master's Student — Nanotechnology & Electronics  
+**Gururaghuraman Sethuraman**  
+Python Developer | Erasmus Scholar | Nanotechnology & Electronics  
 [LinkedIn](https://www.linkedin.com/in/gururaghuraman/)
 
 ## Contributing
