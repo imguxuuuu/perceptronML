@@ -94,9 +94,6 @@ pytest -q
 
 ```
 perceptron-from-scratch/
-├── .github/
-│   └── workflows/
-│       └── tests.yml
 ├── data/
 │   ├── iris_binary.csv              # Synthetic training data
 │   ├── wdbc.data                    # Raw breast cancer data
@@ -105,13 +102,11 @@ perceptron-from-scratch/
 ├── examples/
 │   └── basic_usage.py
 ├── src/
-│   ├── __init__.py
 │   ├── perceptron.py                # Core perceptron implementation
 │   ├── utils.py                     # Utility functions
 │   ├── train.py                     # Training script
 │   └── visualize.py                 # Visualization script
 ├── tests/
-│   ├── __init__.py
 │   └── test_perceptron.py           # Unit tests
 ├── .gitignore
 ├── CHANGELOG.md
