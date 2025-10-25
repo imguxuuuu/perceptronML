@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  perceptron:
+    build: .
+    container_name: perceptron-from-scratch
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./output:/app/output
+    environment:
+      - PYTHONPATH=/app
+    command: python -m src.train --learning-rate 0.1 --epochs 30
